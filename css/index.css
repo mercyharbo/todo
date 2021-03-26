@@ -113,3 +113,28 @@ form button:hover {
   text-decoration: line-through;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    padding: 0 5%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  form input, form button  {
+    padding: 0 5%;
+    max-width: 100%;
+  }
+
+  form {
+    padding: 0 5%;
+  }
+
+  .todo-list {
+    width: 100%;
+  }
+}
